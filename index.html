@@ -2,14 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Pwrmuta Web</title>
+	<title>Permuta Web</title>
 	<meta name="description" content="My Parse App">
 	<meta name="viewport" content="width=device-width">
+	<link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parse-app.js"></script>
 </head>
 <body>
-	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<form>
+					<div class="form-group">
+						<label >Message</label>
+						<input type="email" name="message" class="form-control" placeholder="Email">
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+		
+	</div>
 </body>
 </html>
